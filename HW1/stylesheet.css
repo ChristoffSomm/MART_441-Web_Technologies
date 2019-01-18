@@ -93,3 +93,18 @@ html {
     color: white;
     text-decoration: none;
 }
+
+.link {
+    padding: 20px;
+    text-align: right;
+    color: white;
+    margin-top: 3%;
+    font-size: 20 px ;
+
+}
+
+.link a {
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+}
