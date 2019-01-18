@@ -1,0 +1,95 @@
+html {
+    /* HTML Stuff */
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', 'Aldrich', Courier, 'Courier new', monospace;
+  }
+  
+  /* Got inspration on this part from w3schools */
+  .background-image {
+    /* BG img */
+    background-image: url("imgs/p3230299.jpg");
+    height: 100%;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, .5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-text {
+    /* This is a mess but it works so don't mess with it chris  */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+/* Me holding micheal image  */
+  .hero-image {
+    background-image: url('imgs/GOPR0183.JPG');
+    height: 100%; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+ 
+}
+
+.about {
+    font-size:  200% ;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: auto;
+    border: 3px solid #f1f1f1;
+
+}
+
+.video {
+    box-sizing: border-box;
+    box-shadow: 0px -6px 5px  rgba(0, 0, 0, .5);
+    z-index: 2;
+}
+
+.hobbies {
+    color: white;
+    text-align: left;
+    box-sizing: border-box;
+    min-height: 100%;
+    background-color: #1E1E21;
+    font-size: 200%;
+    padding: 40px;
+}
+
+/* I used this code from your example Website*/
+/* Organizes the buttons at the top of the page */
+.nav {
+    color: white;
+    margin-top: 2%;
+    font-size: 50 px ;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav a {
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+}
