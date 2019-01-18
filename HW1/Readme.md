@@ -1,0 +1,3 @@
+#Homework Week 1
+
+This homework assignment was very difficult. I had trouble remembering how HTML and CSS work. I used a lot of w3schools to help me figure out stuff. I also learn new things this week. like how to order hyperlinks vertically. I figured it out by looking at the professor code and I used it at the top of my page. This week was tough but after doing this assignment I feel more confident in my HTML and CSS skill.
