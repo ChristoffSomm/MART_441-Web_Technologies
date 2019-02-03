@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700'); 
+
+
+body {
+    background-color: #A36CD9;
+
+}
+
+.topBackground {
+    background-color: #513073;
+    width: auto;
+    height: 450px;
+    position: relative;
+    padding: 15px;
+    margin: -1%;
+}
+
+h1 
+{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+}
+
+#welcome, #idName, #thatThing
+{
+    display:inline;
+}
+
+#userName {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #73d9c6;
+    color: white;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 30px;
+    font: bold; 
+}
+
+button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #73d9c6;
+    color: white;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 30px; 
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+.input
+{
+    position: relative;
+    margin: 40px -50px;
+    text-align: center;
+
+}
+
+h1 
+{
+    size: 80px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    size: 50px;
+}
+
+
+
+.container {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  
+#getKnight, #getMage, #getRogue {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    position: relative;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(27, 16, 38, .6);
+  }
+
+.container:hover .overlay {
+    opacity: 1;
+  }
+
+
+.text {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 17%;
+    left: 38%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-family: 
+}
+
+
+.hide {
+    display: none;
+}

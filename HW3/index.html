@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Choose Your Adventure</title>
+    <link rel="stylesheet"  href="stylesheet.css">
+
+</head>
+<body>
+<div class="topBackground">
+    <H1>Welcome Adventurer</H1>
+    <p>Please tell me adventurer, what is your name?</p>
+
+    <!--div Input centers the go button and input box-->
+    <div class="input">
+    <!-- Add Name Here Input box -->
+        <input type="Name" id="userName" value="" >
+   
+    <!--Runs two Funtions Button-->
+        <button onclick="getName(), nextText()">Go</button>
+    </div>
+</div>
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+    <!--After button is pressed funtions run to display name-->
+    <!-- Div "Center" centers the Text-->
+    <div class="center">
+            <p id="welcome"></p> <p id="idName"></p><p id="thatThing"></p> 
+        <br>
+            <p id="nowClass"></p>
+        <br>
+    </div>
+
+
+    <br>
+
+
+
+
+
+
+
+
+ <!-- Grabs the Images for the Class-->
+<div id="hide" style="display: none">
+<div class="container">
+    <img src = "" id = "getKnight"/>
+        <div class="overlay">
+            <div class="text">Knight</div>
+                <div class="about">
+                        "For where there is adventure there is also a knight."
+                        <br>
+                        <br>
+                         A knights fighting style is as important as the strength of their arms 
+                         or the sharpness of their blade. Kights fight by using their skills, strategy, 
+                        and tactics. Typically a knight will use a broadsword; however, its not uncommon 
+                        for a knight to use other weapons like a warhammer, mace, or greatsword. Adventure 
+                        and glory awaits us!
+                </div>
+        </div>
+</div>
+
+
+
+
+
+
+<div class="container">
+    <img src = "" id = "getMage"/>
+        <div class="overlay">
+            <div class="text">Mage</div>
+                <div class="about">
+                        "A mages' soul is forged in the nature of magic."
+                        <br>
+                        <br>
+                        Mages are a superb magic fighters; they spend many years honing their craft. With the 
+                        mistic arts on your side, reality can be whatever you make it: change staw into gold,
+                        heal uncurable wounds, cause massive earthquakes, or even re-animate the dead. Mages 
+                        use staffs or relics to help focus magical engergy. Be wary of dangerous magical items.
+                </div>
+        </div>
+</div>
+
+
+  
+
+
+
+
+
+<div class="container">
+    <img src = "" id = "getRogue"/>
+        <div class="overlay">
+            <div class="text">Rogue</div>
+                <div class="about">
+                        "Every town and city has its share of rogues." 
+                        <br>
+                        <br>
+                        Rogues are elite sleath fighters that use the cover of night to carry out their plans. 
+                        A skillful enough rogues can steal armor right of a guards back. Speed is a rouge 
+                        friend; not being fast enough can result in a failed heist. Typically rouges fight with
+                        nimble weapons like daggers, rapiers, or short-bows. Rogues are not trained to fight fair; 
+                        Rogues are trained to win.
+                    
+                </div>
+        </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+    <script>
+        
+    function getName() {
+        var x = document.getElementById("userName").value;
+        document.getElementById("idName").innerHTML = x;
+        document.getElementById("hide").removeAttribute("style");
+        }
+
+    function nextText() {
+        document.getElementById("welcome").innerHTML = "Welcome, ";
+        document.getElementById("thatThing").innerHTML = "!";
+        document.getElementById("nowClass").innerHTML = "Now choose your class!";
+
+        document.getElementById("getKnight").src = "imgs/Knight.png";
+        document.getElementById("getMage").src = "imgs/Mage.png";
+        document.getElementById("getRogue").src = "imgs/Rouge.png";
+
+        document.getElementsByClassName(container);
+        document.getElementsByClassName(text).show;
+
+    }
+
+
+        </script>
+
+</body>
+</html>
