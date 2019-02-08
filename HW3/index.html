@@ -358,6 +358,67 @@
 </div>
 
 
+<div id="hideStuffC3" style="display:none">
+        <div class="topBackground2"><div id="queenText3"></div></div><br><br><br>
+        <button type="button" onclick="dragonRoll()" id="dDice">Roll the Dice</button>
+</div>
+
+
+
+
+
+<!--Roll out come Dragon-->
+<div id="hideStuffD1" style="display:none">
+        <div class="topBackground2"><div id="dragonText1"></div></div><br><br><br>
+        <div id="dragonRollResult1"></div>
+        <div id="outComeDragon1"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button> 
+</div>
+
+<div id="hideStuffD2" style="display:none">
+        <div class="topBackground2"><div id="dragonText2"></div></div><br><br><br>
+        <div id="dragonRollResult2"></div>
+        <div id="outComeDragon2"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button> 
+</div>
+
+<div id="hideStuffD3" style="display:none">
+        <div class="topBackground2"><div id="dragonText3"></div></div><br><br><br>
+        <div id="dragonRollResult3"></div>
+        <div id="outComeDragon3"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button> 
+</div>
+
+<div id="hideStuffD4" style="display:none">
+        <div class="topBackground2"><div id="dragonText4"></div></div><br><br><br>
+        <div id="dragonRollResult4"></div>
+        <div id="outComeDragon4"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button> 
+</div>
+
+<div id="hideStuffD5" style="display:none">
+        <div class="topBackground2"><div id="dragonText5"></div></div><br><br><br>
+        <div id="dragonRollResult5"></div>
+        <div id="outComeDragon5"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button> 
+</div>
+
+<div id="hideStuffD6" style="display:none">
+        <div class="topBackground2"><div id="dragonText6"></div></div><br><br><br>
+        <div id="dragonRollResult6"></div>
+        <div id="outComeDragon6"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button> 
+</div>
+<div id="hideStuffD7" style="display:none">
+        <div class="topBackground2"><div id="dragonText7"></div></div><br><br><br>
+        <div id="dragonRollResult7"></div>
+        <div id="outComeDragon7"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button> 
+</div>
+
+
+
+
 
     <script>
 // Reloads page
@@ -409,15 +470,22 @@
         document.getElementById("hideStuffC1").style.display = "none";
         document.getElementById("hideStuffC2").style.display = "block";
         document.getElementById("queenText2").innerHTML = "Sir "+ getName() + " refuses the quest and the queen orders her guards to behead Sir "+ getName() +".";
-        document.getElementById("queenOutcome").innerHTML = "You died, don’t refuse an offer from the queen"
+        document.getElementById("queenOutcome").innerHTML = "You died, don’t refuse an offer from the queen";
     }
 
+
+//Yes to the dragon
+    function yesDragon(){
+        document.getElementById("hideStuffC1").style.display = "none";
+        document.getElementById("hideStuffC3").style.display = "block";
+        document.getElementById("queenText3").innerHTML = "Sir " + getName() + " rides all day and night to the Dragon's Lair."
+    }
 
 // Stay at Home
     function homeRoute() {
         document.getElementById("hideStuffTwo").style.display = "none";
         document.getElementById("hideStuffThree").style.display = "block";
-        document.getElementById("knightText2").innerHTML = "Sir " + getName() + ", decides to stay at home. The idea of adventure bored Sir " + getName() + ". Hours pass and day truned to night. Maybe Sir " + getName() + " would like a drink?";
+        document.getElementById("knightText2").innerHTML = "Sir " + getName() + ", decides to stay at home. The idea of adventure bored Sir " + getName() + ". Hours passed and day truned to night. Maybe Sir " + getName() + " would like a drink?";
     }
 
 // Nah Im Good 
@@ -441,7 +509,7 @@
         if (result === 1) {
             document.getElementById("hideStuff4").style.display = "none";
             document.getElementById("hideStuff5").style.display = "block";
-            document.getElementById("answerRoll1").innerHTML = "Sir " + getName() + " is delusional and was never a knight. Sir"  + getName() + ", was a simple peasant with no fame or glory to their name.  Sir " + getName() + " years later die from the black plague… all alone.";
+            document.getElementById("answerRoll1").innerHTML = "Sir " + getName() + " is delusional and was never a knight. Sir "  + getName() + ", was a simple peasant with no fame or glory to their name.  Sir " + getName() + " years later die from the black plague… all alone.";
             document.getElementById("finaleResult1").innerHTML = "You died from the Black Plague"
             }
         else if (result < 8){
@@ -473,7 +541,6 @@
         }
 
     }
-
 
 //Roll to survive wolves
     function surviveWolfs(){
@@ -508,8 +575,62 @@
         }
     }
 
+//Dragon Roll
+    function dragonRoll(){
+        dragonResult = Math.floor(Math.random() * 20 + 1); 
+        document.getElementById("dragonRollResult1").innerHTML = dragonResult;
+        document.getElementById("dragonRollResult2").innerHTML = dragonResult;
+        document.getElementById("dragonRollResult3").innerHTML = dragonResult;
+        document.getElementById("dragonRollResult4").innerHTML = dragonResult;
+        document.getElementById("dragonRollResult5").innerHTML = dragonResult;
+        document.getElementById("dragonRollResult6").innerHTML = dragonResult;
+        document.getElementById("dragonRollResult7").innerHTML = dragonResult;
 
-
+        if (dragonResult === 1){
+            document.getElementById("hideStuffC3").style.display = "none";
+            document.getElementById("hideStuffD1").style.display = "block";
+            document.getElementById("dragonText1").innerHTML = "HAHAHA just kidding Sir " + getName() + " didn’t make it.";
+            document.getElementById("outComeDragon1").innerHTML = "You have died of dysenter";
+        }
+        else if(dragonResult === 2){
+            document.getElementById("hideStuffC3").style.display = "none";
+            document.getElementById("hideStuffD2").style.display = "block";
+            document.getElementById("dragonText2").innerHTML = "HAHAHA Sir " + getName() + " didn’t make it.";
+            document.getElementById("outComeDragon2").innerHTML = "You died riding to the dragon's lair from the Black Plague";
+        }
+        else if (dragonResult < 7){ 
+            document.getElementById("hideStuffC3").style.display = "none";
+            document.getElementById("hideStuffD3").style.display = "block";
+            document.getElementById("dragonText3").innerHTML = "Sir " + getName() + " reaches the edge of the lair and a breathe of engulfs Sir " + getName() +".";
+            document.getElementById("outComeDragon3").innerHTML = "You died from fire";
+        }
+        else if (dragonResult < 12){ 
+            document.getElementById("hideStuffC3").style.display = "none";
+            document.getElementById("hideStuffD4").style.display = "block";
+            document.getElementById("dragonText4").innerHTML = "Sir " + getName() + " reaches the lair and a great battle kicks off. Ultimately the dragon cuts off  Sir "+ getName() +" head with it’s huge claws.";
+            document.getElementById("outComeDragon4").innerHTML = "You died from decapitation ";
+            
+        }
+        else if (dragonResult < 16){ 
+            document.getElementById("hideStuffC3").style.display = "none";
+            document.getElementById("hideStuffD5").style.display = "block";
+            document.getElementById("dragonText5").innerHTML = "Sir " + getName() + " reaches the lair and a great battle kicks off. The dragon wins and forces Sir " + getName() + " into a life of slavey.";
+            document.getElementById("outComeDragon5").innerHTML = "You lived but you are now the dragon's servent";
+            
+        }
+        else if (dragonResult < 20){ 
+            document.getElementById("hideStuffC3").style.display = "none";
+            document.getElementById("hideStuffD6").style.display = "block";
+            document.getElementById("dragonText6").innerHTML = "Sir " + getName() + " reaches the lair and a great battle kicks off. Sir " + getName() + " slays the Dragon and takes the head back to the queen. She is grateful and gifts riches to Sir " + getName() + ".";
+            document.getElementById("outComeDragon6").innerHTML = "You lived and became super rich";
+        }
+        else{ 
+            document.getElementById("hideStuffC3").style.display = "none";
+            document.getElementById("hideStuffD7").style.display = "block";
+            document.getElementById("dragonText7").innerHTML ="Sir " + getName() + " reaches the lair and convinces the dragon to help Sir " + getName() + " take over the land. Sir " + getName() + "  and the Dragon over throws the queen and Sir " + getName() + " becomes ruler of the land.";
+            document.getElementById("outComeDragon7").innerHTML = "You lived and became ruler of the land.";
+        }
+    }
 
 
 
@@ -654,12 +775,14 @@
 
 
     function mageClass() {
-        document.getElementById("hideThings").style.display = "none"
-        console.log ("hi2");
+        document.getElementById("hideThings").style.display = "none";
+        document.getElementById("hideStuffTwo").style.display = "block";
+        document.getElementById("knightText").innerHTML = "Sir " + getName() + ", the queen has requested your presence.";
     }
     function rogueClass() {
-        document.getElementById("hideThings").style.display = "none"
-        console.log ("hi3");
+        document.getElementById("hideThings").style.display = "none";
+        document.getElementById("hideStuffTwo").style.display = "block";
+        document.getElementById("knightText").innerHTML = "Sir " + getName() + ", the queen has requested your presence.";
     }
 
          </script>
