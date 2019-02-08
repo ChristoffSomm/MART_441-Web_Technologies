@@ -9,6 +9,13 @@
 
 </head>
 <body>
+
+
+
+<div id="hideThings"> <!-- Hide stuff Tag-->
+   
+
+    
 <div class="topBackground">
     <H1>Welcome Adventurer</H1>
     <p>Please tell me adventurer, what is your name?</p>
@@ -19,7 +26,7 @@
         <input type="Name" id="userName" value="" >
    
     <!--Runs two Funtions Button-->
-        <button onclick="getName(), nextText()">Go</button>
+        <button onclick="getName(); nextText()">Go</button>
     </div>
 </div>
 
@@ -58,7 +65,7 @@
 
  <!-- Grabs the Images for the Class-->
 <div id="hide" style="display: none">
-<div class="container">
+<div class="container" onclick="knightClass();">
     <img src = "" id = "getKnight"/>
         <div class="overlay">
             <div class="text">Knight</div>
@@ -80,7 +87,7 @@
 
 
 
-<div class="container">
+<div class="container" onclick="mageClass();">
     <img src = "" id = "getMage"/>
         <div class="overlay">
             <div class="text">Mage</div>
@@ -103,7 +110,7 @@
 
 
 
-<div class="container">
+<div class="container" onclick="rogueClass();">
     <img src = "" id = "getRogue"/>
         <div class="overlay">
             <div class="text">Rogue</div>
@@ -122,21 +129,255 @@
 </div>
 
 </div>
+</div> <!-- Hide stuff Tag-->
+
+<!--Knight Adventure-->
+<div id="hideStuffTwo" style="display:none">
+        <div class="topBackground2"><div id="knightText"></div></div><br><br><br><br><br>
+        <button type="button"  onclick="queenRoute()" id="meetQueen">Meet the Queen!</button>
+        <button type="button" onclick="homeRoute()" id="stayHome">Stay at Home</button>
+</div>
+
+
+
+<!--Stay at home-->
+<div id="hideStuffThree" style="display:none">
+        <div class="topBackground2"><div id="knightText2"></div></div><br><br><br><br><br>
+            <button type="button"  onclick="barTime()" id="toBar">Go to the Tavern</button>
+            <button type="button" onclick="homeTime()" id="atHome">Nah I'm good</button>
+</div>
+
+<!--Nah I'm Good-->
+<div id="hideStuff4" style="display:none">
+        <div class="topBackground2"><div id="knightText3"></div></div><br><br><br>
+        <div id="homeRollResult"></div>
+            <button type="button" onclick="homeRoll()" id="homeDice">Roll the Dice</button>
+</div>
+
+
+<div id ="WolfRoute"> <!--Hide The Wolf Route-->
+<!--Die Plague-->
+<div id="hideStuff5" style="display:none">
+        <div class="topBackground2"><div id="answerRoll1"></div></div><br><br><br>
+        <div id="homeRollResult1"></div>
+        <div id="finaleResult1"></div> <!--Die From Plague-->
+            <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--Die Wolve-->
+<div id="hideStuff6" style="display:none">
+        <div class="topBackground2"><div id="answerRoll2"></div></div><br><br><br>
+        <div id="homeRollResult2"></div>
+        <div id="finaleResult2"></div><!--Die From Wolves-->
+            <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--Chance to live-->
+<div id="hideStuff7" style="display:none">
+        <div class="topBackground2"><div id="answerRoll3"></div></div><br><br><br>
+        <div id="homeRollResult3"></div>
+            <button type="button"  onclick="surviveWolfs()" id="surviveDice">Fight to Survive</button>
+</div>
+
+<!--Normal Life-->
+<div id="hideStuff8" style="display:none">
+        <div class="topBackground2"><div id="answerRoll4"></div></div><br><br><br>
+        <div id="homeRollResult4"></div>
+        <div id="finaleResult3"></div>
+            <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--Lord-->
+<div id="hideStuff9" style="display:none">
+        <div class="topBackground2"><div id="answerRoll5"></div></div><br><br><br>
+        <div id="homeRollResult5"></div>
+        <div id="finaleResult4"></div>
+            <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--Bad Death Plague and Wolves-->
+<div id="hideStuff10" style="display:none">
+        <div id="finaleResult5"></div>
+        <div id="wolfRollResult"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--Die from Wolves-->
+<div id="hideStuff11" style="display:none">
+        <div id="finaleResult6"></div>
+        <div id="wolfRollResult1"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--Netflix life-->
+<div id="hideStuff12" style="display:none">
+        <div id="finaleResult7"></div>
+        <div id="wolfRollResult2"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--Alhpa Wolf-->
+<div id="hideStuff13" style="display:none">
+        <div id="finaleResult8"></div>
+        <div id="wolfRollResult3"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+
+</div>
+
+<div id="Bar Route"> <!--Hide The Bar Route-->
 
 
 
 
+<!--Go to the Tavern-->
+<div id="hideStuffA1" style="display:none">
+        <div class="topBackground2"><div id="knightTextA1"></div></div><br><br><br><br><br>
+            <button type="button"  onclick="interveneBar()" id="intervene">Intervene</button>
+            <button type="button" onclick="ignoreBar()" id="ignore">Ignore it</button>
+</div>
+
+<!--Ignore It-->
+<div id="hideStuffA2" style="display:none">
+        <div class="topBackground2"><div id="knightTextA2"></div></div><br><br><br><br><br>
+            <button type="button"  onclick="rollDiceBar()" id="diceBarFight">Roll the Dice</button>
+</div>
+
+
+
+
+
+<!--Roll 1 hit in head-->
+<div id="hideStuffA3" style="display:none">
+        <div class="topBackground2"><div id="outcomeWith1"></div></div><br><br><br><br><br>
+        <div id="barIngoreFightResult1"></div>
+        <div id="barLiveOrDie"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--Roll 9 intervent-->
+<div id="hideStuffA4" style="display:none">
+        <div class="topBackground2"><div id="outcomeWith9"></div></div><br><br><br><br><br>
+        <div id="barIngoreFightResult2"></div>
+        <button type="button" onclick="rollDiceBarF()" id="diceBarf2">Roll the Dice</button>
+        
+</div>
+
+<!--Roll 14 Fight order dirnk-->
+<div id="hideStuffA5" style="display:none">
+        <div class="topBackground2"><div id="outcomeWith14"></div></div><br><br><br><br><br>
+        <div id="barIngoreFightResult3"></div>
+        <div id="barLiveOrDie2"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--Roll 19 no fights-->
+<div id="hideStuffA6" style="display:none">
+        <div class="topBackground2"><div id="outcomeWith19"></div></div><br><br><br><br><br>
+        <div id="barIngoreFightResult4"></div>
+        <div id="barLiveOrDie3"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--Roll 20 own Bar-->
+<div id="hideStuffA7" style="display:none">
+        <div class="topBackground2"><div id="outcomeWith20"></div></div><br><br><br><br><br>
+        <div id="barIngoreFightResult5"></div>
+        <button type="button"  onclick="yesAccept()" id="YesThankyou">Yah, I’ll take over this tavern</button>
+        <button type="button"  onclick="noAccept()" id="NoThankyou">Nah, I’m just here for a drink</button>
+</div>
+
+<!--Own Bar-->
+<div id="hideStuffA8" style="display:none">
+        <div class="topBackground2"><div id="yesOutcome"></div></div><br><br><br><br><br>
+        <div id="barLiveOrDie4"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<!--no own Bar-->
+<div id="hideStuffA9" style="display:none">
+        <div class="topBackground2"><div id="noOutcome"></div></div><br><br><br><br><br>
+        <div id="barLiveOrDie5"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+
+
+<!--Interven-->
+<div id="hideStuffB1" style="display:none">
+        <div class="topBackground2"><div id="interveneText"></div></div><br><br><br><br><br>
+            <button type="button" onclick="rollDiceBarF()" id="diceBarf2">Roll the Dice</button>
+</div>
+
+
+
+<div id="hideStuffB2" style="display:none">
+        <div class="topBackground2"><div id="interveneText1"></div></div><br><br><br><br><br>
+        <div id="barIngoreInterveneResult1"></div>
+        <div id="interveneOutCome"></div>
+        <button type="button" onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+
+<div id="hideStuffB3" style="display:none">
+        <div class="topBackground2"><div id="interveneText2"></div></div><br><br><br><br><br>
+        <div id="barIngoreInterveneResult2"></div>
+        <div id="interveneOutCome2"></div>
+        <button type="button" onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<div id="hideStuffB4" style="display:none">
+        <div class="topBackground2"><div id="interveneText3"></div></div><br><br><br><br><br>
+        <div id="barIngoreInterveneResult3"></div>
+        <div id="interveneOutCome3"></div>
+        <button type="button" onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+<div id="hideStuffB5" style="display:none">
+        <div class="topBackground2"><div id="interveneText4"></div></div><br><br><br><br><br>
+        <div id="barIngoreInterveneResult4"></div>
+        <div id="interveneOutCome4"></div>
+        <button type="button" onclick="tryAgain()" id="reloadPage">Try Agian</button>
+</div>
+
+
+</div>
+
+<div id="hideStuffC1" style="display:none">
+        <div class="topBackground2"><div id="queenText"></div></div><br><br><br>
+            <button type="button" onclick="yesDragon()" id="yeahDrag">Yes My Queen</button>
+            <button type="button" onclick="noDragon()" id="NONODrag">Hell No</button>
+</div>
+
+
+<div id="hideStuffC2" style="display:none">
+        <div class="topBackground2"><div id="queenText2"></div></div><br><br><br>
+        <div id="queenOutcome"></div>
+        <button type="button"  onclick="tryAgain()" id="reloadPage">Try Agian</button>    
+</div>
 
 
 
     <script>
-        
+// Reloads page
+    function tryAgain() {
+        location.reload();
+    }    
     function getName() {
-        var x = document.getElementById("userName").value;
-        document.getElementById("idName").innerHTML = x;
-        document.getElementById("hide").removeAttribute("style");
-        }
+        var currentName = document.getElementById("userName").value;
+        if (currentName === ""){
+            var currentName = "Stranger"
+            document.getElementById("idName").innerHTML = currentName;
+            return currentName;
+            } 
 
+
+        else {
+        document.getElementById("idName").innerHTML = currentName;
+        return currentName;
+            }
+        }
     function nextText() {
         document.getElementById("welcome").innerHTML = "Welcome, ";
         document.getElementById("thatThing").innerHTML = "!";
@@ -146,13 +387,282 @@
         document.getElementById("getMage").src = "imgs/Mage.png";
         document.getElementById("getRogue").src = "imgs/Rouge.png";
 
-        document.getElementsByClassName(container);
-        document.getElementsByClassName(text).show;
+        document.getElementById("hide").removeAttribute("style");
+        }
+
+// Knight Class
+    function knightClass() {
+        document.getElementById("hideThings").style.display = "none";
+        document.getElementById("hideStuffTwo").style.display = "block";
+        document.getElementById("knightText").innerHTML = "Sir " + getName() + ", the queen has requested your presence.";
+    }
+
+//Meet the Queen Function
+    function queenRoute() {
+        document.getElementById("hideStuffTwo").style.display = "none";
+        document.getElementById("hideStuffC1").style.display = "block";
+        document.getElementById("queenText").innerHTML = "Sir "+ getName() + ", goes to meet the queen and she asks Sir " + getName() +" to fight a powerful dragon.";
+    }
+
+// Hell No
+    function noDragon() {
+        document.getElementById("hideStuffC1").style.display = "none";
+        document.getElementById("hideStuffC2").style.display = "block";
+        document.getElementById("queenText2").innerHTML = "Sir "+ getName() + " refuses the quest and the queen orders her guards to behead Sir "+ getName() +".";
+        document.getElementById("queenOutcome").innerHTML = "You died, don’t refuse an offer from the queen"
+    }
+
+
+// Stay at Home
+    function homeRoute() {
+        document.getElementById("hideStuffTwo").style.display = "none";
+        document.getElementById("hideStuffThree").style.display = "block";
+        document.getElementById("knightText2").innerHTML = "Sir " + getName() + ", decides to stay at home. The idea of adventure bored Sir " + getName() + ". Hours pass and day truned to night. Maybe Sir " + getName() + " would like a drink?";
+    }
+
+// Nah Im Good 
+    function homeTime(){
+        document.getElementById("hideStuffThree").style.display = "none";
+        document.getElementById("hideStuff4").style.display = "block";
+        document.getElementById("knightText3").innerHTML = "Sir " + getName() + " had a great day at home. Every knight needs a day off. It's late and almost time bed.";
+    }
+
+//Roll for stay at home
+    function homeRoll(){
+        result = Math.floor(Math.random() * 20 + 1); 
+        document.getElementById("homeRollResult").innerHTML = result;
+        document.getElementById("homeRollResult1").innerHTML = result;
+        document.getElementById("homeRollResult2").innerHTML = result;
+        document.getElementById("homeRollResult3").innerHTML = result;
+        document.getElementById("homeRollResult4").innerHTML = result;
+        document.getElementById("homeRollResult5").innerHTML = result;
+
+        
+        if (result === 1) {
+            document.getElementById("hideStuff4").style.display = "none";
+            document.getElementById("hideStuff5").style.display = "block";
+            document.getElementById("answerRoll1").innerHTML = "Sir " + getName() + " is delusional and was never a knight. Sir"  + getName() + ", was a simple peasant with no fame or glory to their name.  Sir " + getName() + " years later die from the black plague… all alone.";
+            document.getElementById("finaleResult1").innerHTML = "You died from the Black Plague"
+            }
+        else if (result < 8){
+            document.getElementById("hideStuff4").style.display = "none";
+            document.getElementById("hideStuff6").style.display = "block";
+            document.getElementById("answerRoll2").innerHTML = "Sir " + getName() +" heard a roar in the distance before they fell asleep. Sir "  + getName() + " thought nothing of it because Sir " + getName() +" was safe in their house.";
+            document.getElementById("finaleResult2").innerHTML = "You died from being eaten by wolves"
+        }
+        else if (result < 13){
+            document.getElementById("hideStuff4").style.display = "none";
+            document.getElementById("hideStuff7").style.display = "block";
+            document.getElementById("answerRoll3").innerHTML = "Sir " + getName() + " heard a roar in the distance before they fell asleep . Sir " + getName() + " thought they better protect themselves.";
+            document.getElementById("surviveDice").style.display = "inline-block";
+            
+        }
+        else if (result < 20){
+            document.getElementById("hideStuff4").style.display = "none";
+            document.getElementById("hideStuff8").style.display = "block";
+            document.getElementById("answerRoll4").innerHTML = "Sir " + getName() + " nothing happens in the night and Sir " + getName() + ", live out the rest of their life the way they want it.";
+            document.getElementById("answerRoll4").style.display = "block";
+            document.getElementById("finaleResult3").innerHTML = "You lived a normal life"
+
+        }
+        else {
+            document.getElementById("hideStuff4").style.display = "none";
+            document.getElementById("hideStuff9").style.display = "block";
+            document.getElementById("answerRoll5").innerHTML = "Late in the night Sir " + getName() + " gets up for a glass of water. Sir " + getName() + " trips over a loosen board. They remove the board to find a secret room full of treasure. Sir " + getName() + " becomes lord of the land and lives out their life super rich.";
+            document.getElementById("finaleResult4").innerHTML = "You lived and became a lord"
+        }
 
     }
 
 
-        </script>
+//Roll to survive wolves
+    function surviveWolfs(){
+        resultWolf = Math.floor(Math.random() * 20 + 1); 
+        document.getElementById("wolfRollResult").innerHTML = resultWolf;
+        document.getElementById("wolfRollResult1").innerHTML = resultWolf;
+        document.getElementById("wolfRollResult2").innerHTML = resultWolf;
+        document.getElementById("wolfRollResult3").innerHTML = resultWolf;
+
+        if (resultWolf === 1){
+            document.getElementById("hideStuff7").style.display = "none";
+            document.getElementById("hideStuff10").style.display = "block";
+            document.getElementById("finaleResult5").innerHTML = "You died!!! Half eaten by wolves and from the black plague. It’s very embarrassing. Everyone laughs at your funeral";
+        } 
+        else if (resultWolf < 11){
+            document.getElementById("hideStuff7").style.display = "none";
+            document.getElementById("hideStuff11").style.display = "block";
+            document.getElementById("finaleResult6").innerHTML = "You died from being eaten by wolves";
+
+        }
+        else if (resultWolf < 20){
+            document.getElementById("hideStuff7").style.display = "none";
+            document.getElementById("hideStuff12").style.display = "block";
+            document.getElementById("finaleResult7").innerHTML = "Sir " + getName() +  " survives and lived out their life playing Halo and watching Netflix";
+            
+        }
+        else{
+            document.getElementById("hideStuff7").style.display = "none";
+            document.getElementById("hideStuff13").style.display = "block";
+            document.getElementById("finaleResult8").innerHTML = "Sir " + getName() +  " becomes the Alpha of the wolf pack and started a very successful hunting business";
+
+        }
+    }
+
+
+
+
+
+
+
+// Go To bar
+    function barTime() {
+        document.getElementById("hideStuffThree").style.display = "none";
+        document.getElementById("hideStuffA1").style.display = "block";
+        document.getElementById("knightTextA1").innerHTML = "Sir "+ getName() + " heads out to the local tavern. When they get there, Sir name orders a drink and sits down. A few guys in the back of the tavern start making a ruckus.";
+
+    }
+
+//Ignore it
+
+    function ignoreBar() {
+        document.getElementById("hideStuffA1").style.display = "none";
+        document.getElementById("hideStuffA2").style.display = "block";
+        document.getElementById("knightTextA2").innerHTML = "Sir "+ getName() + " ignores the ruckus.";
+    }
+
+    //Ingore it Roll
+    function rollDiceBar() {
+        barResult = Math.floor(Math.random() * 20 + 1); 
+        document.getElementById("barIngoreFightResult1").innerHTML = barResult;
+        document.getElementById("barIngoreFightResult2").innerHTML = barResult;
+        document.getElementById("barIngoreFightResult3").innerHTML = barResult;
+        document.getElementById("barIngoreFightResult4").innerHTML = barResult;
+        document.getElementById("barIngoreFightResult5").innerHTML = barResult;
+
+        if (barResult === 1){
+            document.getElementById("hideStuffA2").style.display = "none";
+            document.getElementById("hideStuffA3").style.display = "block";
+            document.getElementById("outcomeWith1").innerHTML = "A bar fight breaks out and a glass is hurled through the air hitting Sir " + getName() + " in the head.";
+            document.getElementById("barLiveOrDie").innerHTML = "You died from a head wound and the Black Plague";
+        }
+        else if (barResult < 10){
+            document.getElementById("hideStuffA2").style.display = "none";
+            document.getElementById("hideStuffA4").style.display = "block";
+            document.getElementById("outcomeWith9").innerHTML = "A bar fight breaks out and Sir " + getName() + "  forced to Intervene.";
+            
+        }
+        else if (barResult < 15){
+            document.getElementById("hideStuffA2").style.display = "none";
+            document.getElementById("hideStuffA5").style.display = "block";
+            document.getElementById("outcomeWith14").innerHTML = "A bar fight breaks out and Sir " + getName() + " does not intervene but instead orders another drink. The bar fight stops and Sir " + getName() +" has a good time at the tavern.";
+            document.getElementById("barLiveOrDie2").innerHTML = "You lived and got drunk";
+
+        }
+        else if (barResult < 20){
+            document.getElementById("hideStuffA2").style.display = "none";
+            document.getElementById("hideStuffA6").style.display = "block";
+            document.getElementById("outcomeWith19").innerHTML = "Sir " + getName() +", ignores the ruckus and orders another drink. They have a wonderful time at the tavern. Sir " + getName() + ", gets drunk makes friends and wins an arm westling tournament.";
+            document.getElementById("barLiveOrDie3").innerHTML = "You lived got drunk and won some gold";
+        }
+        else {
+            document.getElementById("hideStuffA2").style.display = "none";
+            document.getElementById("hideStuffA7").style.display = "block";
+            document.getElementById("outcomeWith20").innerHTML = "The owner of the tavern walks to the back of the tavern and stops the ruckus. The Owner looks over at Sir "+ getName() + " and offers him ownership of the tavern. The owner is old and tired of drunk people. Do you accept?";
+            
+        }
+    }
+
+        //Yes ill take the Tavren
+        function yesAccept(){
+        document.getElementById("hideStuffA7").style.display = "none";
+        document.getElementById("hideStuffA8").style.display = "block";
+        document.getElementById("yesOutcome").innerHTML = "Sir "+ getName() +" accepts the offer and takes over the tavern. Sir "+ getName() +"/'s tavern becomes very successful establishment. Earning them best tavern in the land";
+        document.getElementById("barLiveOrDie4").innerHTML =  "You lived and own a tavern"  
+        }
+        // No i won't take the Tavren
+        function noAccept(){
+        document.getElementById("hideStuffA7").style.display = "none";
+        document.getElementById("hideStuffA9").style.display = "block";
+        document.getElementById("noOutcome").innerHTML = "Sir "+ getName() +" refuses the offer and orders another drink and has a wonderful time at the tavern. Sir " + getName() +" gets drunk makes friends and wins an arm westling tournament. What a great adventure."; 
+        document.getElementById("barLiveOrDie5").innerHTML = "WHAT IS WRONG WITH YOU I GAVE YOU A TAVERN!!!"
+        }
+
+
+    function interveneBar() {
+        document.getElementById("hideStuffA1").style.display = "none";
+        document.getElementById("hideStuffB1").style.display = "block";
+        document.getElementById("interveneText").innerHTML = "Sir "+ getName() + " decides to intervene and walks to the back of the tavern.";
+    }
+
+
+        //Interven Roll
+        function rollDiceBarF() {
+        interveneResult = Math.floor(Math.random() * 20 + 1); 
+        document.getElementById("barIngoreInterveneResult1").innerHTML = interveneResult;
+        document.getElementById("barIngoreInterveneResult2").innerHTML = interveneResult;
+        document.getElementById("barIngoreInterveneResult3").innerHTML = interveneResult;
+        document.getElementById("barIngoreInterveneResult4").innerHTML = interveneResult;
+
+            if (interveneResult === 1 ) {
+                document.getElementById("hideStuffA4").style.display = "none";
+                document.getElementById("hideStuffB1").style.display = "none";
+                document.getElementById("hideStuffB2").style.display = "block";
+                document.getElementById("interveneText1").innerHTML ="Three men stab Sir " + getName() + " immediate. ";
+                document.getElementById("interveneOutCome").innerHTML = "You survive the stab wound but die 3 minutes later from the Black Plague";
+            }
+            else if (interveneResult < 10) {
+                document.getElementById("hideStuffA4").style.display = "none";
+                document.getElementById("hideStuffB1").style.display = "none";
+                document.getElementById("hideStuffB3").style.display = "block";
+                document.getElementById("interveneText2").innerHTML = "A fight breaks out and Sir "+ getName() + " fights off 3 men but ultimately gets wounded by another knight."; 
+                document.getElementById("interveneOutCome2").innerHTML = "You died from your wounds";
+
+            }
+            else if (interveneResult < 20) {
+                document.getElementById("hideStuffA4").style.display = "none";
+                document.getElementById("hideStuffB1").style.display = "none";
+                document.getElementById("hideStuffB4").style.display = "block";
+                document.getElementById("interveneText3").innerHTML = "A fight breaks out and Sir " + getName() +" fights off all the men that come after him. After the fight Sir " + getName() +" orders another drink and has a wonderful time at the tavern. Sir " + getName() + ", gets drunk makes friends and wins an arm westling tournament. What a great adventure. ";
+                document.getElementById("interveneOutCome3").innerHTML = "You lived yaya";
+                
+            }
+            else {
+                document.getElementById("hideStuffA4").style.display = "none";
+                document.getElementById("hideStuffB1").style.display = "none";
+                document.getElementById("hideStuffB5").style.display = "block";
+                document.getElementById("interveneText4").innerHTML = "Sir "+ getName() + " intervenes and stops a fight before it even happens. The men apologizes and ask sir "+ getName() + " if he would lead them into victory. The men and Sir "+ getName() + " formed a guild to defeat evil in land.";
+                document.getElementById("interveneOutCome4").innerHTML = "You became very wealth and lived a very happy life";
+
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function mageClass() {
+        document.getElementById("hideThings").style.display = "none"
+        console.log ("hi2");
+    }
+    function rogueClass() {
+        document.getElementById("hideThings").style.display = "none"
+        console.log ("hi3");
+    }
+
+         </script>
 
 </body>
 </html>

@@ -3,6 +3,7 @@
 
 body {
     background-color: #A36CD9;
+    text-align: center;
 
 }
 
@@ -13,6 +14,16 @@ body {
     position: relative;
     padding: 15px;
     margin: -1%;
+}
+
+.topBackground2 {
+    background-color: #513073;
+    width: auto;
+    height: auto;
+    position: relative;
+    padding: 30px;
+    margin: -1%;
+
 }
 
 h1 
@@ -112,6 +123,7 @@ p {
     opacity: 0;
     transition: .5s ease;
     background-color: rgba(27, 16, 38, .6);
+    z-index: -1;
   }
 
 .container:hover .overlay {
@@ -141,10 +153,65 @@ p {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: left;
-    font-family: 
 }
 
 
 .hide {
     display: none;
+}
+
+#knightText  {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+#knightText2 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+#knightText3, #knightTextA1, #knightTextA2, #queenText, #queenText2 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+#homeRollResult, #homeRollResult1, #homeRollResult2, #homeRollResult3, #homeRollResult4, #homeRollResult5, #wolfRollResult, #wolfRollResult1, #wolfRollResult2, #wolfRollResult3, #barIngoreFightResult1, #barIngoreFightResult2, #barIngoreFightResult3, #barIngoreFightResult4, #barIngoreFightResult5, #barIngoreInterveneResult1, #barIngoreInterveneResult2, #barIngoreInterveneResult3, #barIngoreInterveneResult4 {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+#answerRoll1, #answerRoll2, #answerRoll3, #answerRoll4, #answerRoll5, #outcomeWith1, #outcomeWith9 , #outcomeWith14, #outcomeWith19, #outcomeWith20, #noOutcome, #yesOutcome, #interveneText, #interveneText1, #interveneText2, #interveneText3, #interveneText4 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+#finaleResult1, #finaleResult2, #finaleResult5, #finaleResult6, #barLiveOrDie, #barLiveOrDie5, #interveneOutCome2, #interveneOutCome, #queenOutcome {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Amatic SC', sans-serif;
+    color:	#dc143c;
+    padding: 40px;
+}
+
+
+#finaleResult3, #finaleResult4, #finaleResult8, #finaleResult7, #barLiveOrDie2, #barLiveOrDie3, #barLiveOrDie4, #interveneOutCome4, #interveneOutCome3 {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Amatic SC', sans-serif;
+    color:	#FFD700	;
+    padding: 40px;
 }
