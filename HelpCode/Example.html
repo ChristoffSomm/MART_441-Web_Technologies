@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Choose Your Adventure</title>
+
+</head>
+<body>
+
+<!-- What I'm Doing is this -->
+<!-- I add div tag  --> <!-- The stuff I want to show I use STYLE Block -->
+<div id="startStory" style="display:block">
+  <h1>Do you like HTML</h1>
+  <!-- Then I add buttons that call a function  -->
+  <button type="button"  onclick="ifYes()" id="yes">YES</button>
+  <button type="button" onclick="ifNo()" id="no">NO</button>
+</div> <!-- All this is in that startStory Div tag  -->
+
+
+<!-- Then I add another Div for each button -->
+<!-- Make sure the sytle is set to display:none  (it hides this div of code)-->
+<div id="noHTML" style="display:none">
+  <h1>oh OKAY</h1>
+</div>
+
+<!-- another Div for yes -->
+<div id="yesHTML" style="display:none">
+  <h1>Awesome</h1>
+</div>
+
+
+<script>
+  // when thge yes button is pressed it calls these function
+  function ifYes(){
+    //This changes the Div startStory  display from block to none
+    document.getElementById("startStory").style.display = "none";
+    //This changes the Div yesHTML display from None to block
+    document.getElementById("yesHTML").style.display = "block";
+  }
+
+
+//And we also add one for the No button too
+function ifNo(){
+  document.getElementById("startStory").style.display = "none";
+  document.getElementById("noHTML").style.display = "block";
+}
+
+
+</script>
+</body>
+</html>
