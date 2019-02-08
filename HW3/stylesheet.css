@@ -183,7 +183,7 @@ p {
     padding: 40px;
 }
 
-#homeRollResult, #homeRollResult1, #homeRollResult2, #homeRollResult3, #homeRollResult4, #homeRollResult5, #wolfRollResult, #wolfRollResult1, #wolfRollResult2, #wolfRollResult3, #barIngoreFightResult1, #barIngoreFightResult2, #barIngoreFightResult3, #barIngoreFightResult4, #barIngoreFightResult5, #barIngoreInterveneResult1, #barIngoreInterveneResult2, #barIngoreInterveneResult3, #barIngoreInterveneResult4, #dragonRollResult1, #dragonRollResult2, #dragonRollResult3, #dragonRollResult4, #dragonRollResult5, #dragonRollResult6, #dragonRollResult7 {
+#homeRollResult, #homeRollResult1, #homeRollResult2, #homeRollResult3, #homeRollResult4 {
     text-align: center;
     font-size: 90px;
     font-family: 'Amatic SC', sans-serif;
@@ -191,7 +191,45 @@ p {
     padding: 40px;
 }
 
-#answerRoll1, #answerRoll2, #answerRoll3, #answerRoll4, #answerRoll5, #outcomeWith1, #outcomeWith9 , #outcomeWith14, #outcomeWith19, #outcomeWith20, #noOutcome, #yesOutcome, #interveneText, #interveneText1, #interveneText2, #interveneText3, #interveneText4, #queenText3, #dragonText1, #dragonText2, #dragonText3, #dragonText4, #dragonText5, #dragonText6, #dragonText7 {
+#homeRollResult5, #wolfRollResult, #wolfRollResult1, #wolfRollResult2, #wolfRollResult3, #barIngoreFightResult1 {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+#barIngoreFightResult1, #barIngoreFightResult2, #barIngoreFightResult3, #barIngoreFightResult4, #barIngoreFightResult5 {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+#barIngoreInterveneResult1, #barIngoreInterveneResult2, #barIngoreInterveneResult3, #barIngoreInterveneResult4 {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+#dragonRollResult1, #dragonRollResult2, #dragonRollResult3, #dragonRollResult4, #dragonRollResult5, #dragonRollResult6, #dragonRollResult7 {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+#answerRoll1, #answerRoll2, #answerRoll3, #answerRoll4, #answerRoll5, #outcomeWith1, #outcomeWith9 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+#outcomeWith14, #outcomeWith19, #outcomeWith20, #noOutcome, #yesOutcome, #interveneText {
     text-align: center;
     font-size: 55px;
     font-family: 'Amatic SC', sans-serif;
@@ -199,7 +237,23 @@ p {
     padding: 40px;
 }
 
-#finaleResult1, #finaleResult2, #finaleResult5, #finaleResult6, #barLiveOrDie, #barLiveOrDie5, #interveneOutCome2, #interveneOutCome, #queenOutcome, #outComeDragon1, #outComeDragon2, #outComeDragon3, #outComeDragon4 {
+#interveneText1, #interveneText2, #interveneText3, #interveneText4, #queenText3 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+#dragonText1, #dragonText2, #dragonText3, #dragonText4, #dragonText5, #dragonText6, #dragonText7 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Amatic SC', sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+#finaleResult1, #finaleResult2, #finaleResult5, #finaleResult6, #barLiveOrDie, #barLiveOrDie5 {
     text-align: center;
     font-size: 90px;
     font-family: 'Amatic SC', sans-serif;
@@ -207,8 +261,23 @@ p {
     padding: 40px;
 }
 
+#interveneOutCome2, #interveneOutCome, #queenOutcome, #outComeDragon1, #outComeDragon2, #outComeDragon3, #outComeDragon4 {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Amatic SC', sans-serif;
+    color:	#dc143c;
+    padding: 40px;
+}
 
-#finaleResult3, #finaleResult4, #finaleResult8, #finaleResult7, #barLiveOrDie2, #barLiveOrDie3, #barLiveOrDie4, #interveneOutCome4, #interveneOutCome3, #outComeDragon5, #outComeDragon6, #outComeDragon7 {
+#finaleResult3, #finaleResult4, #finaleResult8, #finaleResult7, #barLiveOrDie2, #barLiveOrDie3 {
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Amatic SC', sans-serif;
+    color:	#FFD700;
+    padding: 40px;
+}
+
+#barLiveOrDie4, #interveneOutCome4, #interveneOutCome3, #outComeDragon5, #outComeDragon6, #outComeDragon7 {
     text-align: center;
     font-size: 90px;
     font-family: 'Amatic SC', sans-serif;
