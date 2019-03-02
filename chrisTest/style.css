@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+
+body {
+ background-color: #b7410e;
+}
+
+#headLars {
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Amatic SC', cursive;
+	margin-top: -60px;
+}
+
+#attack {
+	margin: 0 auto;
+    display: block;
+}
+
+#attack1 {
+	margin: 0 auto;
+    display: block;
+}
+
+#attack2 {
+	margin: 0 auto;
+    display: block;
+}
+
+#post {
+text-align: center;
+}
+
+#results1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+    text-align: center;
+}
+
+#results2, #results3, #results4, #results5, #results6, #results7, #results8, #results9, #results10, #results11, #results12, #results13, #results14, #results15 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+    text-align: center;
+}
+
+
+#punch1 {
+display: inline-block;
+text-align: center;
+background-size: 150px;
+width: 150px;
+background-color: #393939;
+font-family:  'Amatic SC', cursive;
+color: white;
+font-size: 140px;
+padding: 10px;
+margin: 20px;
+}
+
+
+
+#punch2 {
+display: inline-block;
+text-align: center;
+background-size: 150px;
+width: 150px;
+background-color: #393939;
+font-family:  'Amatic SC', cursive;
+color: white;
+font-size: 140px;
+padding: 10px;
+margin: 20px;
+}
+
+#punch3 {
+display: inline-block;
+text-align: center;
+background-size: 150px;
+width: 150px;
+background-color: #393939;
+font-family:  'Amatic SC', cursive;
+color: white;
+font-size: 140px;
+padding: 10px;
+margin: 20px;
+}
+
+
+#punch4 {
+display: inline-block;
+text-align: center;
+background-size: 150px;
+width: 150px;
+background-color: #393939;
+font-family:  'Amatic SC', cursive;
+color: white;
+font-size: 140px;
+padding: 10px;
+margin: 20px;
+}
+
+
+#punch5 {
+display: inline-block;
+text-align: center;
+background-size: 150px;
+width: 150px;
+background-color: #393939;
+font-family:  'Amatic SC', cursive;
+color: white;
+font-size: 140px;
+padding: 10px;
+margin: 20px;
+
+}
+
+
+#punch15 {
+display: inline-block;
+text-align: center;
+background-size: 150px;
+width: 150px;
+background-color: #393939;
+font-family:  'Amatic SC', cursive;
+color: white;
+font-size: 140px;
+padding: 10px;
+margin: 20px;
+}
+
+button{
+  background:#636363;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  font-family: 'Amatic SC', cursive;
+}
+button:hover{
+  background:#b7410e;
+  color: black;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #636363;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
