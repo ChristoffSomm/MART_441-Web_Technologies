@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Movies</title>
+            <meta charset="UTF-8">
+            <meta name="description" content="Loading Screen">
+            <meta name="author" content="Christoffer Sommerfeld">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body onload="initializeArray()">
+        <h1 class="topHeading">Rate My Movies</h1>
+        <hr class="style">
+        <div class="moviePic">
+            <div class="movieSideFar"><img src="" id="movieOutL" width="160px" height="240px"></div>
+            <div class="movieSide"><img src="" id="movieL" width="240px" height="360px"></div>
+            <div class="movieCenter"><img src="" id="movieCenter" width="320px" height="480px"></div>
+            <div class="movieSide"><img src="" id="movieR" width="240px" height="360px"></div>
+            <div class="movieSideFar"><img src="" id="movieOutR" width="160px" height="240px"></div>
+        </div> 
+        <hr class="style">
+        <br><br>
+        <div class="button">
+                <Button onclick="">Next</Button>
+                </div>
+                <br><br>  
+        <div class="answer5" display="none"></div>
+        <div class="answer4" display="none"></div>
+        <div class="answer3" display="none"></div>
+        <div class="answer2" display="none"></div>
+        <div class="answer1" display="none"></div>
+        <br>  
+
+<div class="starCenter">
+
+
+    <input id="star-5" onclick="answer5()"type="radio" name="rating" value="star-5">
+        <label for="star-5" title="5 star">
+        <span class="star5" style='font-size:100px;'>&#9733;</span>
+    </label>
+
+    <input id="star-4" onclick="answer4()" type="radio" name="rating" value="star-4">
+		<label for="star-4" title="4 stars">
+        <span class="star4" style='font-size:100px;'>&#9733;</span>
+    </label>
+
+    <input id="star-3" onclick="answer3()" type="radio" name="rating" value="star-3">
+		<label for="star-3" title="3 stars">
+        <span class="star3" style='font-size:100px;'>&#9733;</span>
+    </label>
+
+    <input id="star-2" onclick="answer2()" type="radio" name="rating" value="star-2">
+        <label for="star-2" title="2 stars">
+        <span class="star2" style='font-size:100px;'>&#9733;</span>
+    </label>
+
+    <input id="star-1" onclick="answer1()" type="radio" name="rating" value="star-1">
+        <label for="star-1" title="1 stars">
+        <span class="star1" style='font-size:100px;'>&#9733;</span>
+    </label>
+</div>
+
+        <br><br>
+        <div id="title"></div>
+        <br><br>
+        <div id="description"></div>
+
+        <br><br><br><br><br><br>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loading</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Loading Screen">
+        <meta name="author" content="Christoffer Sommerfeld">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div style="text-align: center;  padding: 15% 0;">
+            <h1 class="loading">LOADING</h1><div class="dots1">.</div><div class="dots2">.</div><div class="dots3">.</div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+
+$(function () {
+for (let i = 0; i < 6; i++) {
+    setTimeout(fadeDots, 300);
+    setTimeout(fadeDots2, 600);
+    setTimeout(fadeDots3, 900);
+}
+    setTimeout(loadNewPage, 5000);
+});
+
+function fadeDots(){
+    $(".dots1").fadeOut().fadeIn();
+}
+function fadeDots2(){
+    $(".dots2").fadeOut().fadeIn();
+}
+function fadeDots3(){
+    $(".dots3").fadeOut().fadeIn();
+}
+function loadNewPage(){
+    window.location = "index.html";
+}
+        </script>
+    </body>
+</html>
