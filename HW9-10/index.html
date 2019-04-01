@@ -1,0 +1,2001 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">
+        <meta name="author" content="Christosffer Sommerfeld">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+		<script src="libs/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap-4.0.0.js"></script>
+		<script src="scripts/script.js"></script>
+		
+	<style>
+body{
+	background-color: #AC1013;
+}
+		</style>
+    </head>
+<body style="padding-top: 50px">
+	
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Pokédex</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+	      <li class="nav-item active"> <a class="nav-link" href="#" onClick="battleMode()">Battle Mode <span class="sr-only">(current)</span></a> </li>
+		  </ul>
+  </div>
+</nav>
+
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes0" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img0" width="100px" height="auto"></div>
+		  <div class="name" id="name0"></div>
+		  <div class="num" id="num0"></div>
+		  <div class="type" id="type0"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes1" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img1" width="100px" height="auto"></div>
+	  	<div class="name" id="name1"></div>
+	  	<div class="num" id="num1"></div>
+	  <div class="type" id="type1"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes2" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img2" width="100px" height="auto"></div>
+		 <div class="name" id="name2"></div>
+		 <div class="num" id="num2"></div>
+		  <div class="type" id="type2"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes3" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img3" width="100px" height="auto"></div>
+		 <div class="name" id="name3"></div>
+		  <div class="num" id="num3"></div>
+		  <div class="type" id="type3"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes4" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img4" width="100px" height="auto"></div>
+		  <div class="name" id="name4"></div>
+		  <div class="num" id="num4"></div>
+		  <div class="type" id="type4"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes5" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img5" width="100px" height="auto"></div>
+		  <div class="name" id="name5"></div>
+		  <div class="num" id="num5"></div>
+		  <div class="type" id="type5"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes6" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img6" width="100px" height="auto"></div>
+	  	<div class="name" id="name6"></div>
+	  	<div class="num" id="num6"></div>
+	  <div class="type" id="type6"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes7" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img7" width="100px" height="auto"></div>
+		 <div class="name" id="name7"></div>
+		 <div class="num" id="num7"></div>
+		  <div class="type" id="type7"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes8" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img8" width="100px" height="auto"></div>
+		 <div class="name" id="name8"></div>
+		  <div class="num" id="num8"></div>
+		  <div class="type" id="type8"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes9" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img9" width="100px" height="auto"></div>
+		  <div class="name" id="name9"></div>
+		  <div class="num" id="num9"></div>
+		  <div class="type" id="type9"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes10" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img10" width="100px" height="auto"></div>
+		  <div class="name" id="name10"></div>
+		  <div class="num" id="num10"></div>
+		  <div class="type" id="type10"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes11" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img11" width="100px" height="auto"></div>
+	  	<div class="name" id="name11"></div>
+	  	<div class="num" id="num11"></div>
+	  <div class="type" id="type11"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes12" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img12" width="100px" height="auto"></div>
+		 <div class="name" id="name12"></div>
+		 <div class="num" id="num12"></div>
+		  <div class="type" id="type12"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes13" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img13" width="100px" height="auto"></div>
+		 <div class="name" id="name13"></div>
+		  <div class="num" id="num13"></div>
+		  <div class="type" id="type13"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes14" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img14" width="100px" height="auto"></div>
+		  <div class="name" id="name14"></div>
+		  <div class="num" id="num14"></div>
+		  <div class="type" id="type14"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes15" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img15" width="100px" height="auto"></div>
+		  <div class="name" id="name15"></div>
+		  <div class="num" id="num15"></div>
+		  <div class="type" id="type15"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes16" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img16" width="100px" height="auto"></div>
+	  	<div class="name" id="name16"></div>
+	  	<div class="num" id="num16"></div>
+	  <div class="type" id="type16"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes17" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img17" width="100px" height="auto"></div>
+		 <div class="name" id="name17"></div>
+		 <div class="num" id="num17"></div>
+		  <div class="type" id="type17"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes18" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img18" width="100px" height="auto"></div>
+		 <div class="name" id="name18"></div>
+		  <div class="num" id="num18"></div>
+		  <div class="type" id="type18"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes19" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img19" width="100px" height="auto"></div>
+		  <div class="name" id="name19"></div>
+		  <div class="num" id="num19"></div>
+		  <div class="type" id="type19"></div>
+	</div>
+	
+</div>
+</div>
+
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes20" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img20" width="100px" height="auto"></div>
+		  <div class="name" id="name20"></div>
+		  <div class="num" id="num20"></div>
+		  <div class="type" id="type20"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes21" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img21" width="100px" height="auto"></div>
+	  	<div class="name" id="name21"></div>
+	  	<div class="num" id="num21"></div>
+	  <div class="type" id="type21"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes22" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img22" width="100px" height="auto"></div>
+		 <div class="name" id="name22"></div>
+		 <div class="num" id="num22"></div>
+		  <div class="type" id="type22"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes23" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img23" width="100px" height="auto"></div>
+		 <div class="name" id="name23"></div>
+		  <div class="num" id="num23"></div>
+		  <div class="type" id="type23"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes24" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img24" width="100px" height="auto"></div>
+		  <div class="name" id="name24"></div>
+		  <div class="num" id="num24"></div>
+		  <div class="type" id="type24"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes25" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img25" width="100px" height="auto"></div>
+		  <div class="name" id="name25"></div>
+		  <div class="num" id="num25"></div>
+		  <div class="type" id="type25"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes26" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img26" width="100px" height="auto"></div>
+	  	<div class="name" id="name26"></div>
+	  	<div class="num" id="num26"></div>
+	  <div class="type" id="type26"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes27" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img27" width="100px" height="auto"></div>
+		 <div class="name" id="name27"></div>
+		 <div class="num" id="num27"></div>
+		  <div class="type" id="type27"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes28" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img28" width="100px" height="auto"></div>
+		 <div class="name" id="name28"></div>
+		  <div class="num" id="num28"></div>
+		  <div class="type" id="type28"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes29" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img29" width="100px" height="auto"></div>
+		  <div class="name" id="name29"></div>
+		  <div class="num" id="num29"></div>
+		  <div class="type" id="type29"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes30" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img30" width="100px" height="auto"></div>
+		  <div class="name" id="name30"></div>
+		  <div class="num" id="num30"></div>
+		  <div class="type" id="type30"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes31" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img31" width="100px" height="auto"></div>
+	  	<div class="name" id="name31"></div>
+	  	<div class="num" id="num31"></div>
+	  <div class="type" id="type31"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes32" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img32" width="100px" height="auto"></div>
+		 <div class="name" id="name32"></div>
+		 <div class="num" id="num32"></div>
+		  <div class="type" id="type32"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes33" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img33" width="100px" height="auto"></div>
+		 <div class="name" id="name33"></div>
+		  <div class="num" id="num33"></div>
+		  <div class="type" id="type33"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes34" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img34" width="100px" height="auto"></div>
+		  <div class="name" id="name34"></div>
+		  <div class="num" id="num34"></div>
+		  <div class="type" id="type34"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes35" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img35" width="100px" height="auto"></div>
+		  <div class="name" id="name35"></div>
+		  <div class="num" id="num35"></div>
+		  <div class="type" id="type35"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes36" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img36" width="100px" height="auto"></div>
+	  	<div class="name" id="name36"></div>
+	  	<div class="num" id="num36"></div>
+	  <div class="type" id="type36"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes37" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img37" width="100px" height="auto"></div>
+		 <div class="name" id="name37"></div>
+		 <div class="num" id="num37"></div>
+		  <div class="type" id="type37"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes38" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img38" width="100px" height="auto"></div>
+		 <div class="name" id="name38"></div>
+		  <div class="num" id="num38"></div>
+		  <div class="type" id="type38"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes39" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img39" width="100px" height="auto"></div>
+		  <div class="name" id="name39"></div>
+		  <div class="num" id="num39"></div>
+		  <div class="type" id="type39"></div>
+	</div>
+	
+</div>
+</div>
+
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes40" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img40" width="100px" height="auto"></div>
+		  <div class="name" id="name40"></div>
+		  <div class="num" id="num40"></div>
+		  <div class="type" id="type40"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes41" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img41" width="100px" height="auto"></div>
+	  	<div class="name" id="name41"></div>
+	  	<div class="num" id="num41"></div>
+	  <div class="type" id="type41"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes42" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img42" width="100px" height="auto"></div>
+		 <div class="name" id="name42"></div>
+		 <div class="num" id="num42"></div>
+		  <div class="type" id="type42"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes43" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img43" width="100px" height="auto"></div>
+		 <div class="name" id="name43"></div>
+		  <div class="num" id="num43"></div>
+		  <div class="type" id="type43"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes44" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img44" width="100px" height="auto"></div>
+		  <div class="name" id="name44"></div>
+		  <div class="num" id="num44"></div>
+		  <div class="type" id="type44"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes45" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img45" width="100px" height="auto"></div>
+		  <div class="name" id="name45"></div>
+		  <div class="num" id="num45"></div>
+		  <div class="type" id="type45"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes46" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img46" width="100px" height="auto"></div>
+	  	<div class="name" id="name46"></div>
+	  	<div class="num" id="num46"></div>
+	  <div class="type" id="type46"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes47" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img47" width="100px" height="auto"></div>
+		 <div class="name" id="name47"></div>
+		 <div class="num" id="num47"></div>
+		  <div class="type" id="type47"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes48" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img48" width="100px" height="auto"></div>
+		 <div class="name" id="name48"></div>
+		  <div class="num" id="num48"></div>
+		  <div class="type" id="type48"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes49" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img49" width="100px" height="auto"></div>
+		  <div class="name" id="name49"></div>
+		  <div class="num" id="num49"></div>
+		  <div class="type" id="type49"></div>
+	</div>
+	
+</div>
+</div>
+	
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes50" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img50" width="100px" height="auto"></div>
+		  <div class="name" id="name50"></div>
+		  <div class="num" id="num50"></div>
+		  <div class="type" id="type50"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes51" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img51" width="100px" height="auto"></div>
+	  	<div class="name" id="name51"></div>
+	  	<div class="num" id="num51"></div>
+	  <div class="type" id="type51"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes52" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img52" width="100px" height="auto"></div>
+		 <div class="name" id="name52"></div>
+		 <div class="num" id="num52"></div>
+		  <div class="type" id="type52"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes53" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img53" width="100px" height="auto"></div>
+		 <div class="name" id="name53"></div>
+		  <div class="num" id="num53"></div>
+		  <div class="type" id="type53"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes54" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img54" width="100px" height="auto"></div>
+		  <div class="name" id="name54"></div>
+		  <div class="num" id="num54"></div>
+		  <div class="type" id="type54"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes55" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img55" width="100px" height="auto"></div>
+		  <div class="name" id="name55"></div>
+		  <div class="num" id="num55"></div>
+		  <div class="type" id="type55"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes56" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img56" width="100px" height="auto"></div>
+	  	<div class="name" id="name56"></div>
+	  	<div class="num" id="num56"></div>
+	  <div class="type" id="type56"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes57" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img57" width="100px" height="auto"></div>
+		 <div class="name" id="name57"></div>
+		 <div class="num" id="num57"></div>
+		  <div class="type" id="type57"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes58" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img58" width="100px" height="auto"></div>
+		 <div class="name" id="name58"></div>
+		  <div class="num" id="num58"></div>
+		  <div class="type" id="type58"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes59" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img59" width="100px" height="auto"></div>
+		  <div class="name" id="name59"></div>
+		  <div class="num" id="num59"></div>
+		  <div class="type" id="type59"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes60" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img60" width="100px" height="auto"></div>
+		  <div class="name" id="name60"></div>
+		  <div class="num" id="num60"></div>
+		  <div class="type" id="type60"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes61" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img61" width="100px" height="auto"></div>
+	  	<div class="name" id="name61"></div>
+	  	<div class="num" id="num61"></div>
+	  <div class="type" id="type61"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes62" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img62" width="100px" height="auto"></div>
+		 <div class="name" id="name62"></div>
+		 <div class="num" id="num62"></div>
+		  <div class="type" id="type62"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes63" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img63" width="100px" height="auto"></div>
+		 <div class="name" id="name63"></div>
+		  <div class="num" id="num63"></div>
+		  <div class="type" id="type63"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes64" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img64" width="100px" height="auto"></div>
+		  <div class="name" id="name64"></div>
+		  <div class="num" id="num64"></div>
+		  <div class="type" id="type64"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes65" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img65" width="100px" height="auto"></div>
+		  <div class="name" id="name65"></div>
+		  <div class="num" id="num65"></div>
+		  <div class="type" id="type65"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes66" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img66" width="100px" height="auto"></div>
+	  	<div class="name" id="name66"></div>
+	  	<div class="num" id="num66"></div>
+	  <div class="type" id="type66"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes67" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img67" width="100px" height="auto"></div>
+		 <div class="name" id="name67"></div>
+		 <div class="num" id="num67"></div>
+		  <div class="type" id="type67"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes68" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img68" width="100px" height="auto"></div>
+		 <div class="name" id="name68"></div>
+		  <div class="num" id="num68"></div>
+		  <div class="type" id="type68"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes69" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img69" width="100px" height="auto"></div>
+		  <div class="name" id="name69"></div>
+		  <div class="num" id="num69"></div>
+		  <div class="type" id="type69"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes70" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img70" width="100px" height="auto"></div>
+		  <div class="name" id="name70"></div>
+		  <div class="num" id="num70"></div>
+		  <div class="type" id="type70"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes71" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img71" width="100px" height="auto"></div>
+	  	<div class="name" id="name71"></div>
+	  	<div class="num" id="num71"></div>
+	  <div class="type" id="type71"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes72" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img72" width="100px" height="auto"></div>
+		 <div class="name" id="name72"></div>
+		 <div class="num" id="num72"></div>
+		  <div class="type" id="type72"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes73" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img73" width="100px" height="auto"></div>
+		 <div class="name" id="name73"></div>
+		  <div class="num" id="num73"></div>
+		  <div class="type" id="type73"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes74" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img74" width="100px" height="auto"></div>
+		  <div class="name" id="name74"></div>
+		  <div class="num" id="num74"></div>
+		  <div class="type" id="type74"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes75" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img75" width="100px" height="auto"></div>
+		  <div class="name" id="name75"></div>
+		  <div class="num" id="num75"></div>
+		  <div class="type" id="type75"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes76" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img76" width="100px" height="auto"></div>
+	  	<div class="name" id="name76"></div>
+	  	<div class="num" id="num76"></div>
+	  <div class="type" id="type76"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes77" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img77" width="100px" height="auto"></div>
+		 <div class="name" id="name77"></div>
+		 <div class="num" id="num77"></div>
+		  <div class="type" id="type77"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes78" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img78" width="100px" height="auto"></div>
+		 <div class="name" id="name78"></div>
+		  <div class="num" id="num78"></div>
+		  <div class="type" id="type78"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes79" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img79" width="100px" height="auto"></div>
+		  <div class="name" id="name79"></div>
+		  <div class="num" id="num79"></div>
+		  <div class="type" id="type79"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes80" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img80" width="100px" height="auto"></div>
+		  <div class="name" id="name80"></div>
+		  <div class="num" id="num80"></div>
+		  <div class="type" id="type80"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes81" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img81" width="100px" height="auto"></div>
+	  	<div class="name" id="name81"></div>
+	  	<div class="num" id="num81"></div>
+	  <div class="type" id="type81"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes82" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img82" width="100px" height="auto"></div>
+		 <div class="name" id="name82"></div>
+		 <div class="num" id="num82"></div>
+		  <div class="type" id="type82"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes83" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img83" width="100px" height="auto"></div>
+		 <div class="name" id="name83"></div>
+		  <div class="num" id="num83"></div>
+		  <div class="type" id="type83"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes84" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img84" width="100px" height="auto"></div>
+		  <div class="name" id="name84"></div>
+		  <div class="num" id="num84"></div>
+		  <div class="type" id="type84"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes85" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img85" width="100px" height="auto"></div>
+		  <div class="name" id="name85"></div>
+		  <div class="num" id="num85"></div>
+		  <div class="type" id="type85"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes86" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img86" width="100px" height="auto"></div>
+	  	<div class="name" id="name86"></div>
+	  	<div class="num" id="num86"></div>
+	  <div class="type" id="type86"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes87" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img87" width="100px" height="auto"></div>
+		 <div class="name" id="name87"></div>
+		 <div class="num" id="num87"></div>
+		  <div class="type" id="type87"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes88" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img88" width="100px" height="auto"></div>
+		 <div class="name" id="name88"></div>
+		  <div class="num" id="num88"></div>
+		  <div class="type" id="type88"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes89" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img89" width="100px" height="auto"></div>
+		  <div class="name" id="name89"></div>
+		  <div class="num" id="num89"></div>
+		  <div class="type" id="type89"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes90" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img90" width="100px" height="auto"></div>
+		  <div class="name" id="name90"></div>
+		  <div class="num" id="num90"></div>
+		  <div class="type" id="type90"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes91" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img91" width="100px" height="auto"></div>
+	  	<div class="name" id="name91"></div>
+	  	<div class="num" id="num91"></div>
+	  <div class="type" id="type91"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes92" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img92" width="100px" height="auto"></div>
+		 <div class="name" id="name92"></div>
+		 <div class="num" id="num92"></div>
+		  <div class="type" id="type92"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes93" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img93" width="100px" height="auto"></div>
+		 <div class="name" id="name93"></div>
+		  <div class="num" id="num93"></div>
+		  <div class="type" id="type93"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes94" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img94" width="100px" height="auto"></div>
+		  <div class="name" id="name94"></div>
+		  <div class="num" id="num94"></div>
+		  <div class="type" id="type94"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes95" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img95" width="100px" height="auto"></div>
+		  <div class="name" id="name95"></div>
+		  <div class="num" id="num95"></div>
+		  <div class="type" id="type95"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes96" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img96" width="100px" height="auto"></div>
+	  	<div class="name" id="name96"></div>
+	  	<div class="num" id="num96"></div>
+	  <div class="type" id="type96"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes97" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img97" width="100px" height="auto"></div>
+		 <div class="name" id="name97"></div>
+		 <div class="num" id="num97"></div>
+		  <div class="type" id="type97"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes98" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img98" width="100px" height="auto"></div>
+		 <div class="name" id="name98"></div>
+		  <div class="num" id="num98"></div>
+		  <div class="type" id="type98"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes99" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img99" width="100px" height="auto"></div>
+		  <div class="name" id="name99"></div>
+		  <div class="num" id="num99"></div>
+		  <div class="type" id="type99"></div>
+	</div>
+	
+</div>
+</div>
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes100" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img100" width="100px" height="auto"></div>
+		  <div class="name" id="name100"></div>
+		  <div class="num" id="num100"></div>
+		  <div class="type" id="type100"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes101" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img101" width="100px" height="auto"></div>
+	  	<div class="name" id="name101"></div>
+	  	<div class="num" id="num101"></div>
+	  <div class="type" id="type101"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes102" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img102" width="100px" height="auto"></div>
+		 <div class="name" id="name102"></div>
+		 <div class="num" id="num102"></div>
+		  <div class="type" id="type102"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes103" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img103" width="100px" height="auto"></div>
+		 <div class="name" id="name103"></div>
+		  <div class="num" id="num103"></div>
+		  <div class="type" id="type103"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes104" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img104" width="100px" height="auto"></div>
+		  <div class="name" id="name104"></div>
+		  <div class="num" id="num104"></div>
+		  <div class="type" id="type104"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes105" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img105" width="100px" height="auto"></div>
+		  <div class="name" id="name105"></div>
+		  <div class="num" id="num105"></div>
+		  <div class="type" id="type105"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes106" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img106" width="100px" height="auto"></div>
+	  	<div class="name" id="name106"></div>
+	  	<div class="num" id="num106"></div>
+	  <div class="type" id="type106"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes107" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img107" width="100px" height="auto"></div>
+		 <div class="name" id="name107"></div>
+		 <div class="num" id="num107"></div>
+		  <div class="type" id="type107"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes108" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img108" width="100px" height="auto"></div>
+		 <div class="name" id="name108"></div>
+		  <div class="num" id="num108"></div>
+		  <div class="type" id="type108"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes109" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img109" width="100px" height="auto"></div>
+		  <div class="name" id="name109"></div>
+		  <div class="num" id="num109"></div>
+		  <div class="type" id="type109"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes110" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img110" width="100px" height="auto"></div>
+		  <div class="name" id="name110"></div>
+		  <div class="num" id="num110"></div>
+		  <div class="type" id="type110"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes111" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img111" width="100px" height="auto"></div>
+	  	<div class="name" id="name111"></div>
+	  	<div class="num" id="num111"></div>
+	  <div class="type" id="type111"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes112" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img112" width="100px" height="auto"></div>
+		 <div class="name" id="name112"></div>
+		 <div class="num" id="num112"></div>
+		  <div class="type" id="type112"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes113" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img113" width="100px" height="auto"></div>
+		 <div class="name" id="name113"></div>
+		  <div class="num" id="num113"></div>
+		  <div class="type" id="type113"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes114" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img114" width="100px" height="auto"></div>
+		  <div class="name" id="name114"></div>
+		  <div class="num" id="num114"></div>
+		  <div class="type" id="type114"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes115" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img115" width="100px" height="auto"></div>
+		  <div class="name" id="name115"></div>
+		  <div class="num" id="num115"></div>
+		  <div class="type" id="type115"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes116" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img116" width="100px" height="auto"></div>
+	  	<div class="name" id="name116"></div>
+	  	<div class="num" id="num116"></div>
+	  <div class="type" id="type116"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes117" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img117" width="100px" height="auto"></div>
+		 <div class="name" id="name117"></div>
+		 <div class="num" id="num117"></div>
+		  <div class="type" id="type117"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes118" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img118" width="100px" height="auto"></div>
+		 <div class="name" id="name118"></div>
+		  <div class="num" id="num118"></div>
+		  <div class="type" id="type118"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes119" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img119" width="100px" height="auto"></div>
+		  <div class="name" id="name119"></div>
+		  <div class="num" id="num119"></div>
+		  <div class="type" id="type119"></div>
+	</div>
+	
+</div>
+</div>
+
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes120" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img120" width="100px" height="auto"></div>
+		  <div class="name" id="name120"></div>
+		  <div class="num" id="num120"></div>
+		  <div class="type" id="type120"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes121" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img121" width="100px" height="auto"></div>
+	  	<div class="name" id="name121"></div>
+	  	<div class="num" id="num121"></div>
+	  <div class="type" id="type121"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes122" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img122" width="100px" height="auto"></div>
+		 <div class="name" id="name122"></div>
+		 <div class="num" id="num122"></div>
+		  <div class="type" id="type122"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes123" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img123" width="100px" height="auto"></div>
+		 <div class="name" id="name123"></div>
+		  <div class="num" id="num123"></div>
+		  <div class="type" id="type123"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes124" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img124" width="100px" height="auto"></div>
+		  <div class="name" id="name124"></div>
+		  <div class="num" id="num124"></div>
+		  <div class="type" id="type124"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes125" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img125" width="100px" height="auto"></div>
+		  <div class="name" id="name125"></div>
+		  <div class="num" id="num125"></div>
+		  <div class="type" id="type125"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes126" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img126" width="100px" height="auto"></div>
+	  	<div class="name" id="name126"></div>
+	  	<div class="num" id="num126"></div>
+	  <div class="type" id="type126"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes127" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img127" width="100px" height="auto"></div>
+		 <div class="name" id="name127"></div>
+		 <div class="num" id="num127"></div>
+		  <div class="type" id="type127"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes128" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img128" width="100px" height="auto"></div>
+		 <div class="name" id="name128"></div>
+		  <div class="num" id="num128"></div>
+		  <div class="type" id="type128"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes129" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img129" width="100px" height="auto"></div>
+		  <div class="name" id="name129"></div>
+		  <div class="num" id="num129"></div>
+		  <div class="type" id="type129"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes130" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img130" width="100px" height="auto"></div>
+		  <div class="name" id="name130"></div>
+		  <div class="num" id="num130"></div>
+		  <div class="type" id="type130"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes131" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img131" width="100px" height="auto"></div>
+	  	<div class="name" id="name131"></div>
+	  	<div class="num" id="num131"></div>
+	  <div class="type" id="type131"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes132" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img132" width="100px" height="auto"></div>
+		 <div class="name" id="name132"></div>
+		 <div class="num" id="num132"></div>
+		  <div class="type" id="type132"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes133" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img133" width="100px" height="auto"></div>
+		 <div class="name" id="name133"></div>
+		  <div class="num" id="num133"></div>
+		  <div class="type" id="type133"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes134" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img134" width="100px" height="auto"></div>
+		  <div class="name" id="name134"></div>
+		  <div class="num" id="num134"></div>
+		  <div class="type" id="type134"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes135" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img135" width="100px" height="auto"></div>
+		  <div class="name" id="name135"></div>
+		  <div class="num" id="num135"></div>
+		  <div class="type" id="type135"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes136" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img136" width="100px" height="auto"></div>
+	  	<div class="name" id="name136"></div>
+	  	<div class="num" id="num136"></div>
+	  <div class="type" id="type136"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes137" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img137" width="100px" height="auto"></div>
+		 <div class="name" id="name137"></div>
+		 <div class="num" id="num137"></div>
+		  <div class="type" id="type137"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes138" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img138" width="100px" height="auto"></div>
+		 <div class="name" id="name138"></div>
+		  <div class="num" id="num138"></div>
+		  <div class="type" id="type138"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes139" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img139" width="100px" height="auto"></div>
+		  <div class="name" id="name139"></div>
+		  <div class="num" id="num139"></div>
+		  <div class="type" id="type139"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes140" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img140" width="100px" height="auto"></div>
+		  <div class="name" id="name140"></div>
+		  <div class="num" id="num140"></div>
+		  <div class="type" id="type140"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes141" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img141" width="100px" height="auto"></div>
+	  	<div class="name" id="name141"></div>
+	  	<div class="num" id="num141"></div>
+	  <div class="type" id="type141"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes142" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img142" width="100px" height="auto"></div>
+		 <div class="name" id="name142"></div>
+		 <div class="num" id="num142"></div>
+		  <div class="type" id="type142"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes143" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img143" width="100px" height="auto"></div>
+		 <div class="name" id="name143"></div>
+		  <div class="num" id="num143"></div>
+		  <div class="type" id="type143"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes144" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img144" width="100px" height="auto"></div>
+		  <div class="name" id="name144"></div>
+		  <div class="num" id="num144"></div>
+		  <div class="type" id="type144"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes145" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img145" width="100px" height="auto"></div>
+		  <div class="name" id="name145"></div>
+		  <div class="num" id="num145"></div>
+		  <div class="type" id="type145"></div>
+	</div>
+		  
+  <div class="col-lg-2">
+    <div id="Checkboxes146" style="float: left">
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2"></label>
+		</div>
+	  	 <br>
+		  <div class="img"><img src="" id="img146" width="100px" height="auto"></div>
+	  	<div class="name" id="name146"></div>
+	  	<div class="num" id="num146"></div>
+	  <div class="type" id="type146"></div>
+	</div>
+		  
+	  <div class="col-lg-2">
+		<div id="Checkboxes147" style="float: left">
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3"></label>
+		</div>
+		   <br>
+		 <div class="img"><img src="" id="img147" width="100px" height="auto"></div>
+		 <div class="name" id="name147"></div>
+		 <div class="num" id="num147"></div>
+		  <div class="type" id="type147"></div>
+  </div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes148" style="float: left">
+		  <input type="checkbox" id="Checkbox4">
+		  <label for="Checkbox4"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img148" width="100px" height="auto"></div>
+		 <div class="name" id="name148"></div>
+		  <div class="num" id="num148"></div>
+		  <div class="type" id="type148"></div>
+	</div>
+	
+	  <div class="col-lg-2">
+		<div id="Checkboxes149" style="float: left">
+		  <input type="checkbox" id="Checkbox5">
+		  <label for="Checkbox5"></label>
+		</div>
+		   <br>
+		  <div class="img"><img src="" id="img149" width="100px" height="auto"></div>
+		  <div class="name" id="name149"></div>
+		  <div class="num" id="num149"></div>
+		  <div class="type" id="type149"></div>
+	</div>
+	
+</div>
+</div>
+	
+<div class="centerData">
+<div class="row">
+	  <div class="col-lg-2">
+	<div id="Checkboxes150" style="float: left">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1"></label>
+		</div>
+		  <br>
+		  <div class="img"><img src="" id="img150" width="100px" height="auto"></div>
+		  <div class="name" id="name150"></div>
+		  <div class="num" id="num150"></div>
+		  <div class="type" id="type150"></div>
+	</div>
+</div>
+</div>
+		  
+	
+	
+    </body>
+</html>
