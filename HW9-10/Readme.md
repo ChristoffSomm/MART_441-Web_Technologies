@@ -4,4 +4,4 @@ These weeks were a struggle. I could not for the life of me figure out how to di
 
 
 
-But regrades I got it done on time even though it was tough. 
+But regardless I got it done on time even though it was tough. 
