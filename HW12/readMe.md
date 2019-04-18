@@ -1,0 +1,3 @@
+#ReadMe Week 12
+
+This week was very rough. Nothing was working I had to go to your homework file a lot. But ultimately I got it to work. The first problem was my JavaScript was not reading a second JSON file no matter what I did I could not fix this. So ultimately I just put it into an array. I also could have used .pop to remove stuff from the array but I got lazy and just changed its height and width  to 0 when you collides. Even though I struggled I feel like I learned a lot this week.

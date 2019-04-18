@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+  font-family: 'Herculanum';
+  src: url('../font/Herculanum.eot?#iefix') format('embedded-opentype'),  url('../font/Herculanum.woff') format('woff'), url('../font/Herculanum.ttf')  format('truetype'), url('../font/Herculanum.svg#Herculanum') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.prBGimg{
+	height: auto;
+	background: rgb(208,208,208);
+background: linear-gradient(90deg, rgba(208,208,208,1) 0%, rgba(237,237,237,1) 52%, rgba(153,153,153,1) 100%);	
+}
+
+.parallax {
+  background-image: url(../img/homeTopPic.jpg);
+  min-height: 600px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallaxRulesPage {
+  background-image: url(../img/rulesPage.jpg);
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.centerText {
+  text-align: center;
+  line-height: 300px;
+  font-size: 70px;
+  color: #44EDED;
+  font-family: Herculanum, "serif", "Times New Roman";
+  text-shadow: 4px 2px 4px #000000;
+
+}
+
+.gameSpecs{
+  text-align: center;
+  color: #010101;
+  font-family: Herculanum, "serif", "Times New Roman";
+  padding-top: 50px;
+  
+}
+
+footer{
+	background-color: #323232;
+	color: #7ED0D9;
+	height: 360px;
+	font-family: Herculanum, "serif", "Times New Roman";
+}
+.col-6 {
+	padding: 50px;
+}
+
+.line { 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: linear-gradient(90deg, rgba(208,208,208,0) 20%, rgba(0,0,0,1) 50%, rgba(153,153,153,0) 80%);
+}
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
