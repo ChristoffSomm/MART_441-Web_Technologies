@@ -1,0 +1,1087 @@
+{
+"Bender": 
+	[{
+"Firebender" :[{
+	"movesAttack": { 
+		"Fire-Jabs": {
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		"Fire Streams": {
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		"Fire Daggers": {
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		"Fire Blade": {
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		"Fire lashes": {
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		"Fire whip":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		"Blazing rings and arcs":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		"Fire Missles":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		"Fire Comet":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		"Fire Pinwheel":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 10,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	24, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		"Breath of fire":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 6,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		"Pressurized fire stream":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 6,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	54, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		"Lighting":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 4,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	72, 
+			"Effects": "Stun",
+			"Heal": 0
+		},
+		
+		"Dragon Fire":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 10,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		"Intertwined fire stream":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 6,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	48, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		"Combustionbending":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 4,	
+			"Tagets": 5,
+			"To Hit": 0,
+			"Damage":	60, 
+			"Effects": "Burn",
+			"Heal": 0
+		}
+		
+	}, //END ATTACK FIRE
+	
+	"movesSupport":{
+		"Fire Shield":{
+			"Bending Time": 0,
+			"Roll": "Charisma",
+			"Bending Per Day": 3,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Shield",
+			"Heal": 0
+		},
+		
+		"Flame redirection":{
+			"Bending Time": 0,
+			"Roll": "Charisma",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		"Wall of Flames":{
+			"Bending Time": 0,
+			"Roll": "Charisma",
+			"Bending Per Day": 2,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Shield",
+			"Heal": 0
+		},
+		
+		"Charge Attack":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 2,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Charge",
+			"Heal": 0
+		},
+		
+		"Heat Control":{
+			"Bending Time": 0,
+			"Roll": "Charisma",
+			"Bending Per Day": 3,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Heal",
+			"Heal": 4
+		},
+		
+		"Jet propulsion":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 2,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Speed",
+			"Heal": 0
+		},
+		
+		"Energy Reading":{
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 3,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Heal",
+			"Heal": 6
+		},
+		
+		"Blue Fire":{
+			"Bending Time": 0,
+			"Roll": "Charisma",
+			"Bending Per Day": 0,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Blue Fire",
+			"Heal": 0
+		}
+	}
+}],
+	
+"Waterbender" : [{
+	"movesAttack": { 
+		"Water stream":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		"Water knife":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		"Ice dagger":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Freeze",
+			"Heal": 0	
+			},
+			
+		"Ice Blade":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		"Ice claws":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	8, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		"Water whip":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	8, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		"Razor rings":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		"Water jet":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		"Octopus form":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		"Water bullet":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		"Ice bullets":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Freeze",
+			"Heal": 0	
+			},
+		
+		"Water pinwheel":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	24, 
+			"Effects": "Freeze",
+			"Heal": 0	
+			},
+			
+		"Breath of ice":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Freeze",
+			"Heal": 0	
+			},
+			
+		"Plantbending":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 3,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	48, 
+			"Effects": "Crush",
+			"Heal": 0	
+			},
+			
+		"Plant Monster":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	54, 
+			"Effects": "Armor",
+			"Heal": 0		
+			},
+			
+		"Bloodbending":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 2,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Blood",
+			"Heal": 0	
+			},
+			
+		"Remove or Return Bending":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 2,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Blood/Remove",
+			"Heal": 0	
+			}
+	
+		
+		}, //END ATTACK WATER
+	"movesSupport":{
+		"Water shield":{
+			"Bending Time": 0,
+			"Roll": "Intelligence",
+			"Bending Per Day": 2,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Shield",
+			"Heal": 0	
+		},
+		
+		"Ice shield":{
+			"Bending Time": 0,
+			"Roll": "Intelligence",
+			"Bending Per Day": 2,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Shield",
+			"Heal": 0
+		},
+		
+		"Water wall":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 2,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Shield",
+			"Heal": 0
+		},
+		
+		"Ice floor":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 2,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Trip",
+			"Heal": 0
+		},
+		
+		"Ice dome":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Trap",
+			"Heal": 0
+		},
+		
+		"Healing":{
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 6,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Trap",
+			"Heal": 0
+		},
+		
+		"Surroundings": {
+			"Bending Time": 0,
+			"Roll": "Intelligence",
+			"Bending Per Day": 0,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Surroundings",
+			"Heal": 0
+		}
+	}
+}],
+	
+"Earthbender" : [{
+	"movesAttack": { 
+		"Earth launch":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Earth Punch/Kick":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Earth column":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Earth Roll":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Earth thrust":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Earth overturn":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		},
+		
+		"Rock compressioned thrust":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	24, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Earth Spikes":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Rock bullets":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	24, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Pitfall":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 4,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Earth sinking":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		},
+		
+		"Earth bomb":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		},
+		
+		"Rock slide":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 6,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Earthquakes":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	48, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Metalbending":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 4,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	54, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		"Lavabending":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 4,	
+			"Tagets": 6,
+			"To Hit": 0,
+			"Damage":	60, 
+			"Effects": "Burn",
+			"Heal": 0
+		}
+		
+	},//END ATTACK EARTH
+	"movesSupport":{
+		"Rock shield":{
+			"Bending Time": 0,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Shield",
+			"Heal": 0
+		},
+		
+		"Earth Trip":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Earth Dome":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Trap",
+			"Heal": 0
+		},
+		
+		"Rock wall":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 2,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Shield",
+			"Heal": 0
+		},
+		
+		"Quicksand":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 2,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		},
+		
+		"Earth armor":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Armor",
+			"Heal": 0
+		},
+		
+		"Magnetization":{
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Trap",
+			"Heal": 0
+		},
+		
+		"Seismic sense":{
+			"Bending Time": 0,
+			"Roll": "Strength",
+			"Bending Per Day": 0,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Seismic sense",
+			"Heal": 0
+		}
+	}
+}],
+
+"Airbender" : [{
+	"movesAttack": { 
+		"Air bash":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Air jolt":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Prone",
+			"Heal": 0
+		}, 
+		
+		"Air blast":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Suction":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Air swipe":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Air wheel":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Air blades":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Strong winds":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 5,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Air Bomb":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 6,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	24, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Breath of wind":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 6,	
+			"Tagets": 5,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Tornado":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 4,	
+			"Tagets": 6,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Oxygenated Blood":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 4,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	48, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		},
+		
+		"Asphyxiation":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	54, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		}
+	}, //END ATTACK EARTH
+	"movesSupport":{
+		"Air shield":{
+			"Bending Time": 0,
+			"Roll": "Wisdom",
+			"Bending Per Day": 6,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Shield",
+			"Heal": 0
+		},
+		
+		"Air Trip":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 6,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		"Air vortex":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 6,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Trap",
+			"Heal": 0
+		},
+		
+		"Air propulsion":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 4,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Speed",
+			"Heal": 0
+		},
+		
+		"Enhanced agility":{
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 4,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Healing",
+			"Heal": 6
+		},
+		
+		"Air Dodge":{
+			"Bending Time": 0,
+			"Roll": "Wisdom",
+			"Bending Per Day": 5,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Dodge",
+			"Heal": 0
+		},
+		
+		"Redirected Attack":{
+			"Bending Time": 0,
+			"Roll": "Wisdom",
+			"Bending Per Day": 4,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Counter",
+			"Heal": 0
+		},
+		
+		"levitation":{
+			"Bending Time": 0,
+			"Roll": "Wisdom",
+			"Bending Per Day": 4,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Flight",
+			"Heal": 0
+		},
+		
+		"Hypersensitivity":{
+			"Bending Time": 0,
+			"Roll": "Wisdom",
+			"Bending Per Day": 0,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Hypersensitivity",
+			"Heal": 0
+		},
+		
+		"Enhanced speed":{
+			"Bending Time": 0,
+			"Roll": "Wisdom",
+			"Bending Per Day": 4,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Speed",
+			"Heal": 0
+		},
+		
+		"Flight":{
+			"Bending Time": 0,
+			"Roll": "Wisdom",
+			"Bending Per Day": 3,	
+			"Tagets": 0,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Flight",
+			"Heal": 0
+		}
+	}
+	
+	
+	}]
+	
+}]
+}

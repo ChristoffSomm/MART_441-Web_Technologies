@@ -1,0 +1,207 @@
+{
+"Waterbender": [{
+			"Moves": "Water stream",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		{
+			"Moves": "Water knife",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		{
+			"Moves": "Ice dagger",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Freeze",
+			"Heal": 0	
+			},
+			
+		{
+			"Moves": "Ice Blade",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		{
+			"Moves": "Ice claws",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	8, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		{
+			"Moves": "Water whip",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	8, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		{
+			"Moves": "Razor rings",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		{
+			"Moves": "Water jet",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		{
+			"Moves": "Octopus form",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		{
+			"Moves": "Water bullet",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Freeze",
+			"Heal": 0
+			},
+			
+		{
+			"Moves": "Ice bullets",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Freeze",
+			"Heal": 0	
+			},
+		
+		{
+			"Moves": "Water pinwheel",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	24, 
+			"Effects": "Freeze",
+			"Heal": 0	
+			},
+			
+		{
+			"Moves": "Breath of ice",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Freeze",
+			"Heal": 0	
+			},
+			
+		{
+			"Moves": "Plantbending",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 3,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	48, 
+			"Effects": "Crush",
+			"Heal": 0	
+			},
+			
+		{
+			"Moves": "Plant Monster",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	54, 
+			"Effects": "Armor",
+			"Heal": 0		
+			},
+			
+		{
+			"Moves": "Bloodbending",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 2,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Blood",
+			"Heal": 0	
+			},
+			
+		{
+			"Moves": "Remove or Return Bending",
+			"Bending Time": 1,
+			"Roll": "Intelligence",
+			"Bending Per Day": 2,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	0, 
+			"Effects": "Blood/Remove",
+			"Heal": 0	
+			}
+	
+		
+	]}

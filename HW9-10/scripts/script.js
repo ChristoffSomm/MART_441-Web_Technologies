@@ -33,6 +33,7 @@ $(function() {
 			pokemonArry.push(item);
 		   }); 
 		showPokemon();
+		console.log(pokemonArry);
 	});
 });
 

@@ -1,0 +1,157 @@
+{
+"Airbender" : [{
+			"Moves": "Air bash",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Air jolt",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Prone",
+			"Heal": 0
+		}, 
+		
+		{
+			"Moves": "Air blast",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Suction",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Air swipe",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Air wheel",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Air blades",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Strong winds",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 100,	
+			"Tagets": 5,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Air bomb",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 6,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	24, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Breath of wind",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 6,	
+			"Tagets": 5,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Tornado",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 4,	
+			"Tagets": 6,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Prone",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Oxygenated blood",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 4,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	48, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Asphyxiation",
+			"Bending Time": 1,
+			"Roll": "Wisdom",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	54, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		}
+]} 

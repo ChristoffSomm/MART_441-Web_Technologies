@@ -1,0 +1,193 @@
+{
+"Firebender": [{
+			"Moves": "Fire-Jabs",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		 {
+			"Moves": "Fire Streams",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		 {
+		  	"Moves": "Fire Daggers",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		 {
+			"Moves": "Fire Blade",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		{
+			"Moves": "Fire lashes",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Fire whip",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		{
+			"Moves": "Blazing rings and arcs",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		{
+			"Moves": "Fire Missles",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		{
+			"Moves": "Fire Comet",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Burn",
+			"Heal": 0
+			},
+		
+		{
+			"Moves": "Fire Pinwheel",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 10,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	24, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Breath of fire",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 6,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Pressurized fire stream",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 6,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	54, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Lighting",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 4,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	72, 
+			"Effects": "Stun",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Dragon Fire",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 10,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Intertwined fire stream",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 6,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	48, 
+			"Effects": "Burn",
+			"Heal": 0
+		},
+		
+			   {
+			"Moves": "Combustionbending",
+			"Bending Time": 1,
+			"Roll": "Charisma",
+			"Bending Per Day": 4,	
+			"Tagets": 5,
+			"To Hit": 0,
+			"Damage":	60, 
+			"Effects": "Burn",
+			"Heal": 0
+		}
+		
+]}

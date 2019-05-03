@@ -1,0 +1,195 @@
+{
+"Earthbender" : [{
+			"Moves": "Earth launch",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Earth Punch/Kick",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	4, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Earth column",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Earth Roll",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	6, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Earth thrust",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 2,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Earth overturn",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	12, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Rock compressioned thrust",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	24, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Earth spikes",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	18, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Rock bullets",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 100,	
+			"Tagets": 3,
+			"To Hit": 0,
+			"Damage":	24, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Pitfall",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 4,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Earth sinking",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Earth bomb",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Suffocation",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Rock slide",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 6,
+			"To Hit": 0,
+			"Damage":	36, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Earthquakes",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 3,	
+			"Tagets": 4,
+			"To Hit": 0,
+			"Damage":	48, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Metalbending",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 4,	
+			"Tagets": 1,
+			"To Hit": 0,
+			"Damage":	54, 
+			"Effects": "Crush",
+			"Heal": 0
+		},
+		
+		{
+			"Moves": "Lavabending",
+			"Bending Time": 1,
+			"Roll": "Strength",
+			"Bending Per Day": 4,	
+			"Tagets": 6,
+			"To Hit": 0,
+			"Damage":	60, 
+			"Effects": "Burn",
+			"Heal": 0
+		}
+		
+	]
+}
