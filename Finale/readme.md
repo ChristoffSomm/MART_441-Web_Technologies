@@ -1,0 +1,3 @@
+#Readme
+
+This assignment was really fun. I was able to build a random generator and still follow the rules of the game. An example would be, to get abilities you have to roll a 6 sided dice 4 times then get ride of the lowest number. Add the 3 highs numbers. I was able to add a function that checks those four numbers and gets ride of the smallest number. I am so impressed with how well this code works. I want to add a lot more to it. I’ll continue to work on it though-out the summer. I wanna add a spirit generator and animal generator. There's so much I can add and I can wait to continue working on it.
